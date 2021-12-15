@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="Map 2 Tiles" tilewidth="64" tileheight="64" tilecount="31" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCornerLL.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCornerLR.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCornerUL.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCornerUR.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCrossing.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadCrossingRound.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadEast.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadNorth.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadSplitE.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadSplitN.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadSplitS.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadSplitW.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadTransitionE.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../Tiles/tileGrass_roadTransitionE_dirt.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../Tiles/tileGrass_transitionE.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../Tiles/tileGrass1.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCornerLL.png"/>
+  </tile>
+  <tile id="20">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCornerLR.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCornerUL.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCornerUR.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCrossing.png"/>
+  </tile>
+  <tile id="24">
+   <image width="64" height="64" source="../Tiles/tileSand_roadCrossingRound.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../Tiles/tileSand_roadEast.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="64" source="../Tiles/tileSand_roadNorth.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="64" source="../Tiles/tileSand_roadSplitE.png"/>
+  </tile>
+  <tile id="28">
+   <image width="64" height="64" source="../Tiles/tileSand_roadSplitN.png"/>
+  </tile>
+  <tile id="29">
+   <image width="64" height="64" source="../Tiles/tileSand_roadSplitS.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="64" source="../Tiles/tileSand_roadSplitW.png"/>
+  </tile>
+  <tile id="31">
+   <image width="64" height="64" source="../Tiles/tileSand1.png"/>
+  </tile>
+  <tile id="33">
+   <image width="64" height="64" source="../Tiles/treeBrown_large.png"/>
+  </tile>
+  <tile id="34">
+   <image width="64" height="64" source="../Tiles/treeGreen_large.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Floors" width="15" height="15">
+  <data encoding="base64">
+   EgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEgAAAAIAAAAHAAAABwAAAAcAAAALAAAABwAAAA4AAAAaAAAAHgAAABoAAAAaAAAAGgAAABQAAAAgAAAAEgAAAAQAAAABAAAAEgAAAAIAAAAKAAAAAQAAABEAAAAVAAAAHQAAABQAAAAgAAAAFQAAABYAAAAgAAAAEgAAABIAAAAIAAAAAgAAAAMAAAASAAAACQAAAA0AAAAfAAAAIAAAABcAAAAUAAAAGwAAACAAAAAgAAAAEgAAAAIAAAAKAAAAAwAAABIAAAACAAAAAwAAABEAAAAXAAAAFAAAACAAAAAXAAAAHQAAABQAAAAgAAAAAQAAAAgAAAASAAAAEgAAABIAAAAEAAAAAQAAABEAAAAVAAAAFgAAACAAAAAgAAAAIAAAABsAAAAVAAAACQAAAAUAAAAHAAAACwAAAAEAAAASAAAACQAAAA4AAAAfAAAAIAAAABUAAAAeAAAAGgAAABgAAAAfAAAABQAAAAYAAAAHAAAABgAAAAwAAAASAAAACQAAAA0AAAAfAAAAIAAAABwAAAAZAAAAGgAAABkAAAAYAAAACQAAAAUAAAAHAAAACgAAAAMAAAASAAAACQAAAA4AAAAfAAAAIAAAABcAAAAdAAAAGgAAABgAAAAfAAAAAwAAAAgAAAASAAAAEgAAABIAAAACAAAAAwAAABEAAAAXAAAAFAAAACAAAAAgAAAAIAAAABsAAAAXAAAAEgAAAAQAAAALAAAAAQAAABIAAAAEAAAAAQAAABEAAAAVAAAAFgAAACAAAAAVAAAAHgAAABYAAAAgAAAAEgAAABIAAAAIAAAABAAAAAEAAAASAAAACQAAAA0AAAAfAAAAIAAAABUAAAAWAAAAGwAAACAAAAAgAAAAEgAAAAIAAAADAAAAEgAAAAQAAAALAAAAAwAAABEAAAAXAAAAHgAAABYAAAAgAAAAFwAAABQAAAAgAAAAEgAAAAQAAAAHAAAABwAAAAcAAAAKAAAABwAAAA4AAAAaAAAAHQAAABoAAAAaAAAAGgAAABYAAAAgAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAACAAAAAgAAAAIAAAACAAAAAgAAAA
+  </data>
+ </layer>
+ <layer id="2" name="Walls" width="15" height="15">
+  <data encoding="base64">
+   IwAAACMAAAAjAAAAIwAAACMAAAAjAAAAIwAAACMAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAjAAAAIwAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAiAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAIwAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAiAAAAIgAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAIwAAACMAAAAjAAAAIwAAACMAAAAjAAAAIwAAACMAAAAjAAAAIwAAACIAAAAiAAAAIgAAACIAAAAiAAAA
+  </data>
+ </layer>
+</map>
